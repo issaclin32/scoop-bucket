@@ -1,6 +1,5 @@
 {
     "##": "The language code 'zh-tw' is written according to ISO 639-1. See Wikipedia for details.",
-    "##1": "Add admin right check when porting to official buckets.",
     "version": "6.02",
     "description": "Powerful archive manager (language: Chinese Traditional)",
     "homepage": "https://rarlab.com/",
