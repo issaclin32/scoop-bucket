@@ -1,6 +1,8 @@
 {
-    "##": "The downloaded file could be a newer version rather than indicated in: https://support.avira.com/hc/en-us/articles/360010656158-Current-versions. Therefore checkver is not used.",
-    "##1": "Check installer exit codes at https://servereye.freshdesk.com/support/solutions/articles/14000080956-auflistung-der-avira-antivirus-setup-return-codes-exit-codes",
+    "##": [
+        "The downloaded file could be a newer version rather than indicated in: https://support.avira.com/hc/en-us/articles/360010656158-Current-versions. Therefore checkver is not used.",
+        "Check installer exit codes at https://servereye.freshdesk.com/support/solutions/articles/14000080956-auflistung-der-avira-antivirus-setup-return-codes-exit-codes"
+    ],
     "version": "nightly",
     "description": "Avira Free Antivirus",
     "license": {
