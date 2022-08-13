@@ -70,11 +70,6 @@
             ]
         }
     },
-    "shortcuts": [
-        [
-            
-        ]
-    ],
     "checkver": {
         "url": "http://takeda-toshiya.my.coocan.jp/msdos/history/index.html",
         "regex": "(\\d{4}-\\d{2}-\\d{2})</a>",
