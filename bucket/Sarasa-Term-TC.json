@@ -3,11 +3,11 @@
         "This is a reduced version of 'SarasaGothic-TC' from nerd-fonts. Only includes 1 fontface with different weights.",
         "For more details about different Sarasa fonts, check https://github.com/be5invis/Sarasa-Gothic#what-are-the-names"
     ],
-    "version": "0.36.6",
+    "version": "0.36.8",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.36.6/sarasa-gothic-ttf-0.36.6.7z#/dl.7z_",
-    "hash": "2cf81345c954c5a022ef97477520b0c9d6f5baffe370e8cc8fd3bcfeeb0b072f",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.36.8/sarasa-gothic-ttf-0.36.8.7z#/dl.7z_",
+    "hash": "aa1ceecb06a5c87a6592b50e93a04b33565e8864ecfe05daa34a740bdc4474ca",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
