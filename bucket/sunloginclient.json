@@ -1,16 +1,16 @@
 {
     "##": "This package is not in official buckets because English interface is not available",
-    "version": "12.5.3.48255",
+    "version": "12.6.0.48685",
     "description": "Remote control software (Chinese: 向日葵远程控制/向日葵遠程控制)",
     "homepage": "https://sunlogin.oray.com/",
     "architecture": {
         "64bit": {
-            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.5.3.48255_x64.exe#/setup.exe",
-            "hash": "ce7a61c6c61f6595f498e03e716684eaf59dfd749bbfdce39bd041f1d6e88cf4"
+            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.6.0.48685_x64.exe#/setup.exe",
+            "hash": "383f203035ceaa154a7654543ef0f1ab5dc19ce1dc418f71c3e0374b6770619f"
         },
         "32bit": {
-            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.5.3.48255.exe#/setup.exe",
-            "hash": "b6020e08839a713e1e085a502cabddf3610b8df22d705634113c3726ba06a64a"
+            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.6.0.48685.exe#/setup.exe",
+            "hash": "d66da1b9f591b969a0f2c38416bb17324cb76b7e699e9f7be538bcf88e4e27a9"
         }
     },
     "pre_install": "Invoke-ExternalCommand \"$dir\\setup.exe\" -RunAs -ContinueExitcodes @{1 = 'Click on the dialog box to proceed'} | Out-Null",
