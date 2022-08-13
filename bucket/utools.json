@@ -1,0 +1,46 @@
+{
+    "##": [
+        "This package is not in official buckets because it lacks English interface / manuals",
+        "Persist is not needed because config is at $Env:AppData\\uTools"
+    ],
+    "version": "2.6.3",
+    "description": "A toolbox that simplifies tasks by sending commands or elaborating APIs of your installed apps. The name 'uTools' stands for 'your tools'.",
+    "homepage": "https://u.tools/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://u.tools/agreement.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://res.u-tools.cn/version2/uTools-2.6.3.exe#/dl.7z",
+            "hash": "7d669a33a306c78235d0eb3cacfada6af65d90dad1c9a89e8bd5184671ba81ca"
+        },
+        "32bit": {
+            "url": "https://res.u-tools.cn/version2/uTools-2.6.3-ia32.exe#/dl.7z",
+            "hash": "956feb8deac3ec6639eb60b3ff0519fcbfb3a52822a2461e10042108aabd2e79"
+        }
+    },
+    "pre_install": [
+        "if ($architecture -eq '64bit') { $app_7z = 'app-64.7z' }",
+        "if ($architecture -eq '32bit') { $app_7z = 'app-32.7z' }",
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\$app_7z\" \"$dir\" | Out-Null",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ],
+    "checkver": "uTools-([\\d.]+)\\.exe",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://res.u-tools.cn/version$majorVersion/uTools-2.6.3.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://res.u-tools.cn/version$majorVersion/uTools-2.6.3-ia32.exe#/dl.7z"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+scipy
+matplotlib
+scikit-learn
+pillow
+opencv_contrib_python
+ujson
+colorama
+pywin32
+jupyter
+nbconvert
+ipython
+sympy

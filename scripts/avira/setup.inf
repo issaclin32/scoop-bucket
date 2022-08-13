@@ -1,0 +1,107 @@
+;**********************************************************************
+; Example of a script file for AntiVir setup
+;
+; The setup program must be started with the parameter /INF="name", 
+; whereby "name" is the fully qualified name of the script file.
+;
+; Example: PRESETUP /INF="e:\disks\setup.inf"
+;
+;**********************************************************************
+
+[DATA]
+; Target path for the installation. Please note that setup automatically
+; attaches the company name (Avira) and the product path. 
+; Environment variables such as %PROGRAMFILES% can be used.
+; e.g., if 
+; DestinationPath=%PROGRAMFILES%
+; the result, for example, would be
+; C:\Programs\Avira\AntiVir Workstation
+DestinationPath=%PROGRAMFILES%
+
+; Create AntiVir program group
+; 0 = Off,   1 = On
+ProgramGroup=1
+
+; Specifies whether a desktop icon is to be created for AntiVir
+; 1 = Create, 0 = Do not create.
+DesktopIcon=0
+
+; Specifies whether a system restore point is to be created
+; 1 = Create, 0 = Do not create
+UseSystemRestore=0
+
+; Path and file name of a license file to be installed at the same time.
+KeyFile=
+
+; Path and file name of an optional predefined INI file in which
+; the configuration of AntiVir can be predefined.
+AVWinIni=
+
+; If necessary, Windows is restarted automatically. (recommended)
+; 0 = Off,   1 = On
+RestartWindows=0
+
+; If you want, setup shows information before
+; the automatic restart. 
+; 0 = Do not show information,     1 = Show information
+ShowRestartMessage=0
+
+; With this parameter, you can specify whether or not the mail scanner  
+; is to be installed. The mail scanner 
+; monitors incoming emails as well as their attachments. 1 = Mail scanner 
+; scanner, 0 = Do not install mail scanner. 
+MailScanner=0
+
+; Install the virus guard AVGuard
+; 0 = Do not install,   1 = Install
+Guard=0
+
+; With this parameter, you can specify whether or not the WebGuard,  
+; is to be installed. The WebGuard monitors 
+; the HTTP connections, e.g. while surfing the Internet
+; 1 = Install WebGuard, 0 = Do not install WebGuard. 
+WebGuard=0
+
+; The shell extension of AntiVir is registered in the registry.
+; This extension can only be run under Windows NT 4.0 or higher.
+; 0 = Do not register,   1 = Register
+ShellExtension=1
+
+; The following parameters can be used to 
+; influence the setup.
+; Update = Accept settings and update files 
+; (Repair installation)
+; Modify = Install new program features using SETUP.INF,
+; Update files. (Change Installation)
+; Remove ?Uninstall AntiVir from the system
+SetupMode=Modify
+
+; With this parameter, you can specify whether or not the AntiRootKit module  
+; is to be installed by AntiVir. If this module is not
+; installed, the scanner cannot search for rootkits on the system.
+; 1 = Install AntiRootkit, 0 = Do not install AntiRootkit. 
+RootKit=0
+
+; With this parameter, you can specify whether or not AntiVir ProActiv 
+; is to install a module for detecting unknown malware.
+;
+; if you enable AntiVir ProActiv, the
+; advanced online scan (Avira ProActiv Community) is also automatically enabled.
+; This enhances your system’s protection with the online scanning of
+; suspect files. You can disable participation in the
+; Avira ProActiv Community in the configuration under Guard->ProActiv
+;. More information is available under
+; http://www.avira.com/proactiv
+; 1 = Install AntiVir ProActiv, 0 = Do not install AntiVir ProActiv.
+ProActiv=0
+
+; With this parameter, you can specify whether or not the Avira FireWall is to
+; be installed on the system. The Avira FireWall enables rule-based
+; control of incoming and outgoing Internet traffic
+; 1 = Install Avira FireWall, 0 = Do not install Avira FireWall.
+FireWall=0
+
+; This option transfers the set password to the setup routine. The entry is only checked by the setup routine
+; if a password was set.
+; E.g.:Password=password123
+Password=

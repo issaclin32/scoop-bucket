@@ -1,0 +1,34 @@
+{
+    "##": "This package is not in official buckets because English interface is not available",
+    "version": "12.5.3.48255",
+    "description": "Remote control software (Chinese: 向日葵远程控制/向日葵遠程控制)",
+    "homepage": "https://sunlogin.oray.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.5.3.48255_x64.exe#/setup.exe",
+            "hash": "ce7a61c6c61f6595f498e03e716684eaf59dfd749bbfdce39bd041f1d6e88cf4"
+        },
+        "32bit": {
+            "url": "https://down.oray.com/sunlogin/windows/SunloginClient_12.5.3.48255.exe#/setup.exe",
+            "hash": "b6020e08839a713e1e085a502cabddf3610b8df22d705634113c3726ba06a64a"
+        }
+    },
+    "pre_install": "Invoke-ExternalCommand \"$dir\\setup.exe\" -RunAs -ContinueExitcodes @{1 = 'Click on the dialog box to proceed'} | Out-Null",
+    "uninstaller": {
+        "script": "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList '--mod=uninstall' -RunAs -ContinueExitcodes @{1 = 'Click on the dialog box to proceed'} | Out-Null"
+    },
+    "checkver": {
+        "url": "https://www.weidown.com/xiazai/3843.html",
+        "regex": "SunloginClient_([\\d.]+)\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://down.oray.com/sunlogin/windows/SunloginClient_$version_x64.exe#/setup.exe"
+            },
+            "32bit": {
+                "url": "https://down.oray.com/sunlogin/windows/SunloginClient_$version.exe#/setup.exe"
+            }
+        }
+    }
+}
