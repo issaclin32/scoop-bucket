@@ -1,7 +1,8 @@
 {
-    "##": "This is a reduced version of 'SarasaGothic-TC' from nerd-fonts. Only includes 1 fontface with different weights.",
-    "##1": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "##2": "For more details about different Sarasa fonts, check https://github.com/be5invis/Sarasa-Gothic#what-are-the-names",
+    "##": [
+        "This is a reduced version of 'SarasaGothic-TC' from nerd-fonts. Only includes 1 fontface with different weights.",
+        "For more details about different Sarasa fonts, check https://github.com/be5invis/Sarasa-Gothic#what-are-the-names"
+    ],
     "version": "0.36.6",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
