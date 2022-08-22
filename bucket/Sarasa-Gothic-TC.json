@@ -14,7 +14,7 @@
     },
     "installer": {
         "script": [
-            "Invoke-ExternalCommand 7z -ArgumentList('e', \"`\"$dir\\dl.7z_`\"\" ,\"`\"-o$dir`\"\", '*-gothic-tc-*.ttf') | Out-Null",
+            "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\dl.7z_\" ,\"-o$dir\", '*-gothic-tc-*.ttf') | Out-Null",
             "Remove-Item \"$dir\\dl.7z_\"",
             "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
             "  New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
