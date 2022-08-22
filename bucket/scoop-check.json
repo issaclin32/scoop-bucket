@@ -4,7 +4,7 @@
     "description": "Using Scoop to check new updates, and let the user choose to update or not.",
     "homepage": "none",
     "license": "Unlicense",
-    "depends": "sudo",
+    "depends": "gsudo",
     "url": [
         "https://raw.githubusercontent.com/issaclin32/scoop-bucket/master/scripts/scoop-check.ps1",
         "https://raw.githubusercontent.com/issaclin32/scoop-bucket/master/scripts/scoop-check.bat"
