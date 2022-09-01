@@ -5,7 +5,7 @@
         "This package is nonportable because the installer cannot be properly extracted",
         "The uninstaller is not completely silent (will pop up a page after uninstallation)"
     ],
-    "version": "1.0.15.260",
+    "version": "1.0.15.262",
     "description": "An all-in-one writing assistant that gives real-time feedback on commas, commonly confused words, and more.",
     "homepage": "https://www.grammarly.com/",
     "license": {
@@ -13,7 +13,7 @@
         "url": "https://www.grammarly.com/terms"
     },
     "url": "https://download-windows.grammarly.com/GrammarlyInstaller.exe#/setup.exe",
-    "hash": "9771926321641adea89a05eb08346fd4faa2b2d561aec6092aefbd8b5362a857",
+    "hash": "c67d81316996a17e045057b22cfe43c43cae4cbcd936a6c764f1829074ebe067",
     "installer": {
         "script": [
             "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList '/S' | Out-Null",
