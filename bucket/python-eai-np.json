@@ -22,7 +22,7 @@
         "script": [
             "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
             "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/quiet', 'InstallAllUsers=1', 'PrependPath=1') -Verb RunAs",
-            "$dir\\commands.bat",
+            "$dir\\commands.bat"
         ]
     },
     "uninstaller": {
