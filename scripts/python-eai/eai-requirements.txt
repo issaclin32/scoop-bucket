@@ -1,0 +1,14 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.5.1+cpu
+torchvision==0.6.1+cpu
+tensorflow==2.4.0
+torchsummary
+onnx==1.7.0
+progressbar33==2.4
+prettytable==1.0.1
+h5py==2.10.0
+pycryptodome==3.7.2
+configparser==5.0.1
+psutil==5.7.2
+keras==2.4.3
+tflite==2.4.0
