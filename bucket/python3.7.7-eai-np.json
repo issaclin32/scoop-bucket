@@ -1,8 +1,9 @@
 {
     "version": "3.7.7",
-    "description": "A programming language that lets you work quickly and integrate systems more effectively.",
+    "description": "Python 3.7.7 with packages required for e-AI 2.2.0 (install in default location)",
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
+    "depends": "refreshenv"
     "architecture": {
         "64bit": {
             "url": "https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe#/setup.exe",
@@ -10,7 +11,11 @@
         }
     },
     "installer": {
-        "script": "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/quiet', 'InstallAllUsers=1', 'PrependPath=1') -Verb RunAs"
+        "script": [
+            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/quiet', 'InstallAllUsers=1', 'PrependPath=1') -Verb RunAs",
+            "refreshenv",
+            "python -m pip install -U pip"
+        ]
     },
     "uninstaller": {
         "script": "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/uninstall', '/quiet') -Verb RunAs"
