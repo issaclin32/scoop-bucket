@@ -1,3 +1,3 @@
 refreshenv
 python -m pip install -U pip
-pip install -r "%~dp0\eai-requirements.txt"
+pip install -r "%~dp0eai-requirements.txt"
