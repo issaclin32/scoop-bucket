@@ -1,7 +1,7 @@
 {
-    "homepage": "https://github.com/ADeltaX/AudioFlyout",
     "version": "0.9.2.0",
     "description": "Replace the Volume/SMTC UI with a custom one.",
+    "homepage": "https://github.com/ADeltaX/AudioFlyout",
     "license": "GPL-3.0-or-later",
     "notes": "Run \"audioflyout-add-startup\" (with admin rights) to add AudioFlyout to startup programs",
     "url": "https://github.com/ADeltaX/AudioFlyout/releases/download/0.9.2.0/AudioFlyout.zip",
