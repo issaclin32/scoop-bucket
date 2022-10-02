@@ -13,7 +13,7 @@
         "url": "https://www.grammarly.com/terms"
     },
     "url": "https://download-windows.grammarly.com/GrammarlyInstaller.exe#/setup.exe",
-    "hash": "692ca154bf082dff03650ea65bd43aaaa22e178c8e07f21deba9d86620d14ee8",
+    "hash": "52d959d840743c693b68aa685371f3c1ce0d072f3e941f12a1fe066545e40d2c",
     "installer": {
         "script": [
             "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList '/S' | Out-Null",
