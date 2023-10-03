@@ -10,7 +10,7 @@
         "https://raw.githubusercontent.com/issaclin32/scoop-bucket/master/scripts/scoop-check.bat"
     ],
     "hash": [
-        "741d98f680f6a93d40cb2c2749115e26d386f1aef1b354ce90fd30df567693ea",
+        "7da980c998ba81ca2bf9b78e6a3750f40a7903ccfe5468d2f27ba2b964e08235",
         "897d1ca64e03483d4a9776e293d3efd4f8357f918dfc1e5ce5f68c396c890aa0"
     ],
     "bin": "scoop-check.bat"
