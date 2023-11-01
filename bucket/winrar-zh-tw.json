@@ -45,10 +45,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersiontc.exe#/dl.7z"
+                "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar-x64-$cleanVersiontc.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.rarlab.com/rar/wrar$cleanVersiontc.exe#/dl.7z"
+                "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar-x32-$cleanVersiontc.exe#/dl.7z"
             }
         }
     }
