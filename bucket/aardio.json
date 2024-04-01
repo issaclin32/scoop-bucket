@@ -1,11 +1,11 @@
 {
     "##": "This package is not added to official buckets because only Chinese UI / docs is available.",
-    "version": "35.82.2",
+    "version": "35.82.3",
     "description": "Rapid programming platform for Windows desktop applications",
     "homepage": "https://www.aardio.com/",
     "license": "Freeware",
     "url": "https://ide.update.aardio.com/releases/aardio.7z",
-    "hash": "3da3a753298ce43474c471875f5cc6439ff2138463b034be59020e64fe658f92",
+    "hash": "81777eb6e69635ceaff341d101c6204fa4150e6f11bca28a70155fbfac834ec1",
     "bin": "aardio.exe",
     "shortcuts": [
         [
