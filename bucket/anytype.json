@@ -1,8 +1,4 @@
 {
-    "##": [
-        "repo url: https://github.com/anyproto/anytype-ts",
-        "config location: $Env:AppData\\Anytype"
-    ],
     "version": "0.41.1",
     "description": "Local-first, E2E encrypted software for creating and storing tasks, notes, ideas, documents, workflows, and more.",
     "homepage": "https://anytype.io/",
