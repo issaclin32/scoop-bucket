@@ -2,7 +2,7 @@
     "##": "This package is not ported to the official buckets because ReadMe file written in English is not available. Extracting the .msi using 7-zip (which is by default in Scoop) causes path error. Therefore renaming it to .msi_.",
     "homepage": "https://getquicker.net/",
     "description": "Make key shortcuts for programs, folders, URLs, and commands (fast update channel)",
-    "version": "1.43.19.0",
+    "version": "1.43.21.0",
     "license": {
         "identifier": "Shareware",
         "url": "https://getquicker.net/Forum/ViewTopic/341"
@@ -11,11 +11,11 @@
     "architecture": {
         "32bit": {
             "url": "https://getquicker.net/download/item/fast_x86#/quicker.msi",
-            "hash": "3d13eb332edcbfc78fd84d702e17525d1f8debdd7cdb748041850bb309e35122"
+            "hash": "f37dd3cf78ae5428dad46aa080c0be123f88c5000c5bfd72c7d8ca18b4bcf32d"
         },
         "64bit": {
             "url": "https://getquicker.net/download/item/fast_x64#/quicker.msi",
-            "hash": "98c3ca47be66ed95725c535f1a0132e968de738ae37db221549b09a52bcfe690"
+            "hash": "f85317ec91e6ec7075e8045d9534dc0611981e5b3b5bf61659a21a497652bdc2"
         }
     },
     "installer": {
