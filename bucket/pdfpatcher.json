@@ -1,14 +1,14 @@
 {
     "##": "This package is not added to official buckets because only Chinese UI / docs is available.",
-    "version": "1.1.0.4620",
+    "version": "1.1.0.4632",
     "description": "PDF manipulating tool",
     "homepage": "https://www.cnblogs.com/pdfpatcher/",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/wmjordan/PDFPatcher#%E6%8E%88%E6%9D%83%E5%8D%8F%E8%AE%AE"
     },
-    "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v1.1/PDFPatcher.1.1.0.4620.7z",
-    "hash": "86a0a66ad93a053415689d090afa207c194f22782a2b357e28b1332c7efd9670",
+    "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v1.1/PDFPatcher.1.1.0.4632.7z",
+    "hash": "624d839cc860b6d84696e3bb725ccc88b4c616238f14fa208decb3bd78fae750",
     "pre_install": [
         "if (!(Test-Path \"$dir\\AppConfig.json\")) {",
         "    New-Item \"$dir\\AppConfig.json\" | Out-Null",
