@@ -1,10 +1,10 @@
 {
-    "version": "50.0.0",
+    "version": "60.0.0",
     "description": "Microsoft product activator",
     "homepage": "https://github.com/zbezj/HEU_KMS_Activator",
     "license": "Proprietary",
-    "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/50.0.0/HEU_KMS_Activator_v50.0.0.rar",
-    "hash": "5d336f9ab6d10350ffad225e703265729496282910a9bd006c5a609e4b4c637e",
+    "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/60.0.0/HEU_KMS_Activator_v60.0.0.rar",
+    "hash": "47fb0230bae94addde676b83b1f603181a7b5b309b1caf80e51c7bad4814858e",
     "pre_install": "Get-ChildItem \"$dir\\HEU_KMS_Activator*.exe\" | Rename-Item -NewName 'HEU_KMS_Activator.exe' | Out-Null",
     "shortcuts": [
         [
