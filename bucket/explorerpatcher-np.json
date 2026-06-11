@@ -1,11 +1,11 @@
 {
     "##": "Modified from 'https://github.com/ACooper81/scoop-apps/'",
-    "version": "26100.8457.70.1",
+    "version": "26100.8457.70.2",
     "description": "Bring back Win10-style taskbar on Windows 11",
     "homepage": "https://github.com/valinet/ExplorerPatcher",
     "license": "GPL-2.0-or-later",
     "url": "https://github.com/valinet/ExplorerPatcher/releases/latest/download/ep_setup.exe#/setup.exe",
-    "hash": "f689c068d61e7339efc6eba266d9674b41c5ef96dff0cc90ab0ff80c11a84ae8",
+    "hash": "40d1853738ed8f6933104cf89db29309252bbdda27235281a3872bd2c2449910",
     "pre_install": "if(!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
     "installer": {
         "script": [
