@@ -1,0 +1,12 @@
+{
+    "version": "1.75",
+    "description": "Information tool for Windows EXE, DLL, driver and OBJ files (PE/COFF images)",
+    "homepage": "https://bytepointer.com/tools/index.htm#pelook",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://bytepointer.com/tools/index.htm"
+    },
+    "url": "https://drive.google.com/uc?export=download&id=1Gly3QQDYEbL6bXlNb49V4IVq3kL9YG5m#/dl.zip",
+    "hash": "9edf00f8acf8de519ac8193483af55f6a3e485b61707051fe6417a9a593f8a54",
+    "bin": "pelook.exe"
+}
