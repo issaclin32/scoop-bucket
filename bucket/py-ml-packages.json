@@ -1,7 +1,7 @@
 {
     "version": "2022.5.3",
     "description": "A collection of Python packages that are commonly used in image-based machine learning. This should be installed through pip.",
-    "homepage": "none",
+    "homepage": "https://github.com/issaclin32/scoop-bucket",
     "license": "Unlicense",
     "depends": "refreshenv",
     "post_install": "refreshenv",
